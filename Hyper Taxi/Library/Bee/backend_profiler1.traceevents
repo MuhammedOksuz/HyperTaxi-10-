@@ -1,0 +1,520 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1670522555397674, "dur":974, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670522555398658, "dur":59, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1670522555398735, "dur":34, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1670522555398771, "dur":426, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1670522555399220, "dur":555, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670522555399775, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670522560317259, "dur":648, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670522560317908, "dur":32, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670522560317940, "dur":8, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670522560317948, "dur":36, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670522560317984, "dur":10, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670522560317994, "dur":25, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670522560318019, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670522560318024, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670522560318039, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670522560318042, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670522560318056, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670522560318060, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670522560318073, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670522560318077, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670522560318090, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670522560318093, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670522560318108, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670522560318111, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670522560318124, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670522560318128, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670522560318141, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670522560318145, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670522560318157, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670522560318161, "dur":17, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670522560318178, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670522560318209, "dur":4, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670522560318248, "dur":2517, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1670522555399461, "dur":342, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670522555399813, "dur":3289, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670522555403112, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1670522555403117, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670522555403585, "dur":179, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1670522555403767, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1670522555403779, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670522555404949, "dur":27648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1670522555432601, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1670522555432719, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670522555432963, "dur":875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1670522555433863, "dur":362460, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1670522555796332, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670522555796347, "dur":27097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1670522555823494, "dur":220926, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670522556044426, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670522556044438, "dur":1452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670522556045914, "dur":116660, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670522556162581, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670522556162593, "dur":1805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670522556164418, "dur":491766, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670522556656189, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670522556656200, "dur":2915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670522556659131, "dur":95395, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670522556754534, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670522556754550, "dur":2688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670522556757260, "dur":237519, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670522556994782, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670522556994788, "dur":4206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670522556999016, "dur":574474, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670522557573497, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670522557573509, "dur":2658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670522557576185, "dur":300405, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670522557876597, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670522557876610, "dur":1259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670522557877888, "dur":832035, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670522558709928, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670522558709938, "dur":2093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670522558712049, "dur":703501, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670522559415559, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670522559415573, "dur":1990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670522559417588, "dur":333722, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670522559751318, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670522559751331, "dur":5292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670522559756663, "dur":552321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670522560308993, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670522560309006, "dur":7999, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670522560317040, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":1, "ts":1670522560317046, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670522555399586, "dur":231, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670522555399818, "dur":4786, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670522555404604, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1670522555404665, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670522555436874, "dur":3044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1670522555439955, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1670522555440056, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670522555440064, "dur":11272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1670522555451409, "dur":65116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670522555516531, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670522555516539, "dur":29228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670522555545813, "dur":134127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670522555679948, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670522555682875, "dur":5351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670522555688254, "dur":610905, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670522556299164, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670522556299173, "dur":7739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670522556306949, "dur":345627, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670522556652583, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670522556652621, "dur":6179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670522556658827, "dur":90645, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670522556749481, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670522556749495, "dur":7097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670522556756617, "dur":495596, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670522557252221, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670522557252235, "dur":2140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670522557254401, "dur":31803, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670522557286210, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670522557286220, "dur":6818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670522557293059, "dur":300546, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670522557593610, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670522557593622, "dur":2378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670522557596020, "dur":803895, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670522558399923, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670522558399937, "dur":7062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670522558407020, "dur":1092605, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670522559499633, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670522559499646, "dur":5002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670522559504671, "dur":67467, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670522559572145, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670522559572157, "dur":2625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670522559574816, "dur":703158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670522560277983, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670522560277998, "dur":3043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670522560281070, "dur":36145, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670522555400034, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670522555400034, "dur":4210, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670522555404245, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1670522555404369, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670522555434635, "dur":5220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1670522555439894, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1670522555440001, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670522555440010, "dur":2059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1670522555442098, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1670522555442215, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670522555442222, "dur":2412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1670522555444661, "dur":2503, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670522555447170, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670522555458721, "dur":8849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670522555467610, "dur":475881, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670522555943499, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670522555943678, "dur":7647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670522555951351, "dur":1043104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670522556994458, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670522556994468, "dur":15555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670522557010044, "dur":585194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670522557595243, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670522557595254, "dur":3815, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670522557599082, "dur":291590, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670522557890676, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670522557890684, "dur":9484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670522557900210, "dur":115300, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670522558015518, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670522558015531, "dur":8900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670522558024451, "dur":147651, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670522558172109, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670522558172123, "dur":3313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670522558175454, "dur":1432, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670522558176892, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670522558176902, "dur":1214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670522558178133, "dur":331331, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670522558509471, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670522558509515, "dur":1624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670522558511172, "dur":811039, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670522559322219, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670522559322233, "dur":8787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670522559331044, "dur":62386, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670522559393438, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670522559393453, "dur":2574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670522559396077, "dur":514084, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670522559910169, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670522559910181, "dur":5359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670522559915563, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1670522559915585, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670522559915595, "dur":3198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1670522559918816, "dur":5577, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1670522559924399, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670522559924409, "dur":2831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1670522559927263, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1670522559927279, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670522559927288, "dur":3150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1670522559930459, "dur":386702, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670522555399943, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670522555399943, "dur":4545, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670522555404489, "dur":61056, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1670522555465549, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670522555465659, "dur":2894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1670522555468588, "dur":208745, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670522555677341, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670522555682848, "dur":5806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670522555688679, "dur":330979, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670522556019665, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670522556019676, "dur":1624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670522556021342, "dur":183470, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670522556204821, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670522556204835, "dur":2075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670522556206949, "dur":804921, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670522557011875, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670522557011886, "dur":1119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670522557013022, "dur":582048, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670522557595103, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670522557595218, "dur":4611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670522557599840, "dur":278723, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670522557878568, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670522557878578, "dur":1958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670522557880555, "dur":1756421, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670522559636986, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670522559637002, "dur":2331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670522559639356, "dur":184076, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670522559823437, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670522559823447, "dur":6616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670522559830087, "dur":351267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670522560181361, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670522560181372, "dur":2233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670522560183631, "dur":133537, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1670522555399980, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1670522555399980, "dur":4406, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1670522555404386, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1670522555404453, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1670522555424181, "dur":13240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1670522555437454, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1670522555437592, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1670522555437657, "dur":1177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1670522555438867, "dur":210723, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1670522555649594, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1670522555649603, "dur":1322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1670522555650954, "dur":1154050, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670522556805105, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1670522556805119, "dur":3965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670522556809103, "dur":27473, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670522556836583, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1670522556836596, "dur":7019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670522556843638, "dur":30830, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670522556874476, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1670522556874489, "dur":1705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670522556876216, "dur":98002, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670522556974225, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1670522556974238, "dur":23056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670522556997318, "dur":301749, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670522557299074, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1670522557299089, "dur":1788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670522557300904, "dur":293449, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670522557594359, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1670522557594370, "dur":4915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670522557599297, "dur":290265, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670522557889568, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1670522557889579, "dur":10393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670522557899994, "dur":1804141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670522559704171, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1670522559704184, "dur":2374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670522559706578, "dur":346771, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670522560053359, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1670522560053376, "dur":3763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670522560057190, "dur":259967, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670522555400007, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670522555400008, "dur":4243, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670522555404251, "dur":60688, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1670522555464945, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670522555465171, "dur":1080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1670522555466281, "dur":837641, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670522556303930, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670522556303943, "dur":3905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670522556307881, "dur":460990, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670522556768880, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670522556768894, "dur":2027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670522556770942, "dur":39164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670522556810113, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670522556810126, "dur":1542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670522556811686, "dur":299840, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670522557111534, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670522557111549, "dur":1577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670522557113149, "dur":767387, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670522557880541, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670522557880575, "dur":1400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670522557881989, "dur":1151171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670522559033167, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670522559033177, "dur":1408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670522559034600, "dur":821439, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670522559856046, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670522559856059, "dur":2308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670522559858392, "dur":44136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670522559902536, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670522559902548, "dur":1706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670522559904285, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":6, "ts":1670522559904427, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670522559906073, "dur":1882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":6, "ts":1670522559907979, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1670522559907997, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670522559908046, "dur":2368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1670522559910445, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1670522559910469, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670522559910479, "dur":5887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1670522559916386, "dur":342, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":6, "ts":1670522559916737, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670522559916752, "dur":2460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":6, "ts":1670522559919238, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/resources.assets" }}
+,{ "pid":12345, "tid":6, "ts":1670522559919260, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670522559919272, "dur":2550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/resources.assets" }}
+,{ "pid":12345, "tid":6, "ts":1670522559921843, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/level0.resS" }}
+,{ "pid":12345, "tid":6, "ts":1670522559921861, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670522559921871, "dur":2009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/level0.resS" }}
+,{ "pid":12345, "tid":6, "ts":1670522559923908, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1670522559923941, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670522559923952, "dur":2378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1670522559926359, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1670522559926383, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670522559926397, "dur":1955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1670522559928376, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1670522559928491, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670522559928501, "dur":2245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1670522559930767, "dur":386398, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670522555400218, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670522555400218, "dur":2980, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670522555403199, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1670522555403362, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670522555458847, "dur":5297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1670522555464243, "dur":479087, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi.exe" }}
+,{ "pid":12345, "tid":7, "ts":1670522555943337, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670522555943349, "dur":3397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi.exe" }}
+,{ "pid":12345, "tid":7, "ts":1670522555946765, "dur":1047445, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670522556994218, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670522556994260, "dur":10842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670522557005128, "dur":213972, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670522557219110, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670522557219125, "dur":1760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670522557220909, "dur":190451, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670522557411398, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670522557411410, "dur":2013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670522557413445, "dur":630413, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670522558043868, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670522558043885, "dur":8107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670522558052007, "dur":654053, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670522558706066, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670522558706077, "dur":1965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670522558708072, "dur":1333795, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670522560041876, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670522560041888, "dur":1868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670522560043782, "dur":273372, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670522555400063, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670522555400063, "dur":4067, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670522555404130, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1670522555404209, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670522555421430, "dur":30221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1670522555451689, "dur":8762, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":8, "ts":1670522555460462, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670522555460470, "dur":12014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":8, "ts":1670522555472521, "dur":718220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670522556190750, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670522556190763, "dur":1793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670522556192589, "dur":831106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670522557023717, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670522557023730, "dur":8984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670522557032726, "dur":373077, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670522557405809, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670522557405820, "dur":2957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670522557408800, "dur":489183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670522557897990, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670522557898003, "dur":2970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670522557900985, "dur":531574, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670522558432567, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670522558432580, "dur":2199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670522558434798, "dur":1600293, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670522560035102, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670522560035116, "dur":2469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670522560037620, "dur":279811, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1670522555400093, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1670522555400093, "dur":4010, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1670522555404103, "dur":244865, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1670522555648972, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1670522555648996, "dur":1414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1670522555650452, "dur":296860, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670522555947317, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1670522555947325, "dur":4365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670522555951707, "dur":848368, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670522556800082, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1670522556800096, "dur":7252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670522556807368, "dur":55839, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670522556863214, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1670522556863227, "dur":2094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670522556865352, "dur":129321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670522556994676, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1670522556994682, "dur":15596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670522557010293, "dur":583768, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670522557594068, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1670522557594079, "dur":1866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670522557595966, "dur":296765, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670522557892736, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1670522557892745, "dur":7920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670522557900682, "dur":508059, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670522558408747, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1670522558408757, "dur":2868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670522558411642, "dur":1342551, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670522559754220, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1670522559754237, "dur":2080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670522559756343, "dur":356880, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670522560113230, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1670522560113243, "dur":1971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670522560115234, "dur":202093, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1670522555400120, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1670522555400121, "dur":3868, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1670522555403989, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1670522555404073, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1670522555423708, "dur":23469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1670522555447214, "dur":10805, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670522555458026, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1670522555458497, "dur":6927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670522555465463, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":10, "ts":1670522555465587, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1670522555465836, "dur":7087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":10, "ts":1670522555472973, "dur":819443, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670522556292451, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1670522556292462, "dur":1777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670522556294256, "dur":714654, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670522557008917, "dur":35, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1670522557008967, "dur":1280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670522557010266, "dur":249512, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670522557259786, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1670522557259801, "dur":1681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670522557261518, "dur":98498, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670522557360024, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1670522557360038, "dur":1811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670522557361872, "dur":232666, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670522557594542, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1670522557594552, "dur":3635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670522557598215, "dur":447636, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670522558045857, "dur":14, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1670522558045881, "dur":7180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670522558053074, "dur":16676, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670522558069757, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1670522558069770, "dur":1520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670522558071310, "dur":1391, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670522558072707, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1670522558072719, "dur":1862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670522558074602, "dur":336704, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670522558411311, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1670522558411321, "dur":1444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670522558412782, "dur":1285158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670522559697946, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1670522559697956, "dur":2340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670522559700320, "dur":199297, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670522559899623, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1670522559899635, "dur":2279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670522559901938, "dur":86979, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/Assembly-CSharp-firstpass.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670522559988923, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1670522559988932, "dur":1576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/Assembly-CSharp-firstpass.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670522559990538, "dur":326612, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1670522555400163, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1670522555400164, "dur":3778, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1670522555403942, "dur":239894, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1670522555643844, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1670522555644022, "dur":1868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1670522555645927, "dur":300257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1670522555946191, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1670522555946204, "dur":5377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1670522555951604, "dur":352623, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1670522556304231, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1670522556304240, "dur":3540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1670522556307802, "dur":147810, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1670522556455618, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1670522556455629, "dur":99118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1670522556554774, "dur":168483, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1670522556723265, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1670522556723279, "dur":1228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1670522556724526, "dur":299143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1670522557023677, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1670522557023723, "dur":7720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1670522557031460, "dur":253913, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1670522557285382, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1670522557285434, "dur":7068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1670522557292526, "dur":113200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1670522557405734, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1670522557405746, "dur":2935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1670522557408705, "dur":1886677, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1670522559295391, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1670522559295404, "dur":4043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1670522559299471, "dur":760694, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":11, "ts":1670522560060173, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1670522560060186, "dur":1544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":11, "ts":1670522560061757, "dur":255631, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1670522555400246, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1670522555400246, "dur":2878, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1670522555403125, "dur":58883, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":12, "ts":1670522555462017, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1670522555468385, "dur":3058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":12, "ts":1670522555471480, "dur":1038906, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1670522556510394, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1670522556510408, "dur":65067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1670522556575505, "dur":834961, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1670522557410474, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1670522557410489, "dur":2629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1670522557413143, "dur":46087, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1670522557459238, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1670522557459251, "dur":1730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1670522557461003, "dur":130607, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1670522557591615, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1670522557591625, "dur":1004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1670522557592646, "dur":451499, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1670522558044186, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1670522558044200, "dur":8433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1670522558052649, "dur":153825, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":12, "ts":1670522558206480, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1670522558206490, "dur":1664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":12, "ts":1670522558208171, "dur":1160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1670522558209335, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1670522558209342, "dur":1225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1670522558210586, "dur":1116688, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":12, "ts":1670522559327281, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1670522559327293, "dur":4407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":12, "ts":1670522559331751, "dur":518644, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":12, "ts":1670522559850402, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1670522559850415, "dur":3022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":12, "ts":1670522559853497, "dur":252224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/DOTween.dll" }}
+,{ "pid":12345, "tid":12, "ts":1670522560105735, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1670522560105751, "dur":8042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/10. Game/Hyper Taxi_Data/Managed/DOTween.dll" }}
+,{ "pid":12345, "tid":12, "ts":1670522560113824, "dur":203369, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670522560323070, "dur":4061, "ph":"X", "name": "ProfilerWriteOutput" }
+,
